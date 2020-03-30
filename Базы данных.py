@@ -65,7 +65,7 @@ strvar5 = """INSERT INTO Sentences(Sentence, Emotion, Word) VALUES (%s, %s, %s)"
 cur.execute(strvar1, ((v641), (emo), (2)))
 cur.execute(strvar2, ((v642), (nemo), (3)))
 cur.execute(strvar3, ((v643), (emo), (2)))
-cur.execute(strvar4, ((v643), (nemo), (3)))
+cur.execute(strvar4, ((v643), (emo), (3)))
 cur.execute(strvar5, ((v644), (und), (1)))
 conn.commit()
 
